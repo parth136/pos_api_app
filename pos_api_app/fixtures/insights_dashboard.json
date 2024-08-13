@@ -354,5 +354,619 @@
   "name": "DSH-0021",
   "public_key": null,
   "title": "Sales Metrics(Weekly - Visual)"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 1,
+  "items": [
+   {
+    "item_id": "225478",
+    "item_type": "Filter",
+    "layout": "{\"i\":225478,\"x\":0,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"14181\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"237512\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"643168\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"734623\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"933533\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"}},\"column\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"label\":\"Franchise\",\"defaultValue\":{}}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "419123",
+    "item_type": "Filter",
+    "layout": "{\"i\":419123,\"x\":5,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"14181\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"237512\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"643168\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"734623\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"933533\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"}},\"column\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"type\":\"Date\",\"table\":\"tabSales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"label\":\"Date\",\"defaultOperator\":{\"label\":\"within\",\"value\":\"timespan\"},\"defaultValue\":{\"value\":\"Current Week\",\"label\":\"Current Week\"}}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "137227",
+    "item_type": "Filter",
+    "layout": "{\"i\":137227,\"x\":10,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"14181\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"237512\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"643168\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"734623\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"933533\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"}},\"column\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"type\":\"String\",\"table\":\"tabSales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"label\":\"SKU / Item\",\"defaultValue\":{}}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "643168",
+    "item_type": "Table",
+    "layout": "{\"i\":643168,\"x\":0,\"y\":8,\"w\":20,\"h\":25,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"SKU\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Weekly\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Refills\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Refill Rate (%)\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0051\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true,\"title\":\"Average # of refill SKUs per Customer Type\\u00a0 Weekly\"}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "237512",
+    "item_type": "Table",
+    "layout": "{\"i\":237512,\"x\":0,\"y\":33,\"w\":20,\"h\":23,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Weekly\",\"column_options\":{\"column_type\":\"Date\"}},{\"column\":\"Refills\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Customer\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Refill Rate\",\"column_options\":{\"column_type\":\"Number\"}}],\"query\":\"QRY-0052\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true,\"title\":\"Franchise Type of Customer WIse Refill Rate Weekly\"}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "933533",
+    "item_type": "Table",
+    "layout": "{\"i\":933533,\"x\":0,\"y\":56,\"w\":20,\"h\":23,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Item Code Name\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Weekly\",\"column_options\":{\"column_type\":\"Date\"}},{\"column\":\"Refills\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Customer\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Refill Rate\",\"column_options\":{\"column_type\":\"Number\"}}],\"query\":\"QRY-0053\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true,\"title\":\"Franchise SKU Type of Customer WIse Refill Rate Weekly\"}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "14181",
+    "item_type": "Table",
+    "layout": "{\"i\":14181,\"x\":0,\"y\":3,\"w\":20,\"h\":5,\"moved\":false}",
+    "options": "{\"columns\":[\"Refills\",\"Customer\",\"Refill Rate\"],\"query\":\"QRY-0044\",\"title\":\"Global Refill Rate\"}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "371347",
+    "item_type": "Filter",
+    "layout": "{\"i\":371347,\"x\":15,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"14181\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"237512\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"643168\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"933533\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"}},\"column\":{\"label\":\"Territory\",\"column\":\"territory\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"label\":\"Franchise Country\"}",
+    "parent": "DSH-0050",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-01 10:19:36.875066",
+  "name": "DSH-0050",
+  "public_key": "16d034553a5f5ccb132f1a2d418f39eb728d2ef3a8f4e769862a0aee",
+  "title": "Refill Metrics Weekly"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "673315",
+    "item_type": "Table",
+    "layout": "{\"i\":673315,\"x\":0,\"y\":0,\"w\":20,\"h\":5,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"These Two Week\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0056\",\"title\":\"Global Retention Rate Weekly\"}",
+    "parent": "DSH-0054",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "821573",
+    "item_type": "Table",
+    "layout": "{\"i\":821573,\"x\":0,\"y\":5,\"w\":20,\"h\":10,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Type of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"These Two Week\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0057\",\"title\":\"Global Retention Rate weekly with Type of Customer\"}",
+    "parent": "DSH-0054",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "896219",
+    "item_type": "Table",
+    "layout": "{\"i\":896219,\"x\":0,\"y\":15,\"w\":20,\"h\":23,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"These Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0055\",\"title\":\"Franchise Wise Retention Rate Weekly\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0054",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "293406",
+    "item_type": "Table",
+    "layout": "{\"i\":293406,\"x\":0,\"y\":38,\"w\":20,\"h\":25,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Type of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"These Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought This Week & Last Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0035\",\"title\":\"Retention Rate Weekly with Type Of Customer\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0054",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-06-14 11:52:17.962226",
+  "name": "DSH-0054",
+  "public_key": null,
+  "title": "Retention Rate Weekly"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "701327",
+    "item_type": "Table",
+    "layout": "{\"i\":701327,\"x\":0,\"y\":2,\"w\":20,\"h\":24,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Referral Company\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Item Code Name\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Item Name Qty\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Invoice Item Qty\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Total Quantity\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0042\",\"index\":true,\"showTotal\":true,\"title\":\"Product Sale Per Franchise\",\"filtersEnabled\":true}",
+    "parent": "DSH-0040",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "870227",
+    "item_type": "Filter",
+    "layout": "{\"i\":870227,\"x\":0,\"y\":0,\"w\":4,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"701327\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"}},\"column\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"label\":\"Franchise\"}",
+    "parent": "DSH-0040",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "976360",
+    "item_type": "Filter",
+    "layout": "{\"i\":976360,\"x\":4,\"y\":0,\"w\":4,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"701327\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"}},\"column\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"type\":\"Date\",\"table\":\"tabSales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"label\":\"Date\"}",
+    "parent": "DSH-0040",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "769456",
+    "item_type": "Filter",
+    "layout": "{\"i\":769456,\"x\":8,\"y\":0,\"w\":4,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"701327\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"}},\"column\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"type\":\"String\",\"table\":\"tabSales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"label\":\"Item / SKU\"}",
+    "parent": "DSH-0040",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "152202",
+    "item_type": "Filter",
+    "layout": "{\"i\":152202,\"x\":12,\"y\":0,\"w\":4,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"701327\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"}},\"column\":{\"label\":\"Territory\",\"column\":\"territory\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"label\":\"Franchise Country\"}",
+    "parent": "DSH-0040",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "539509",
+    "item_type": "Filter",
+    "layout": "{\"i\":539509,\"x\":16,\"y\":0,\"w\":4,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"701327\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"}},\"column\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"label\":\"Type of Customer\"}",
+    "parent": "DSH-0040",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-07-22 14:49:14.250878",
+  "name": "DSH-0040",
+  "public_key": null,
+  "title": "Product Sales Metrics"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "15858",
+    "item_type": "Number",
+    "layout": "{\"i\":15858,\"x\":0,\"y\":2,\"w\":7,\"h\":5,\"moved\":false}",
+    "options": "{\"query\":\"QRY-0044\",\"title\":\"Customers\",\"column\":\"Customer\",\"shorten\":false}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "205928",
+    "item_type": "Filter",
+    "layout": "{\"i\":205928,\"x\":0,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"15858\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"56482\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"263216\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"478721\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"855073\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"940459\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"960308\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"}},\"column\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"label\":\"Franchise\"}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "416147",
+    "item_type": "Filter",
+    "layout": "{\"i\":416147,\"x\":5,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"15858\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"56482\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"263216\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"478721\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"855073\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"940459\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"960308\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"}},\"column\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"type\":\"Date\",\"table\":\"tabSales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"label\":\"Date\",\"defaultOperator\":{\"label\":\"within\",\"value\":\"timespan\"},\"defaultValue\":{\"value\":\"Current Week\",\"label\":\"Current Week\"}}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "56482",
+    "item_type": "Number",
+    "layout": "{\"i\":56482,\"x\":7,\"y\":2,\"w\":6,\"h\":5,\"moved\":false}",
+    "options": "{\"query\":\"QRY-0044\",\"title\":\"Refills\",\"column\":\"Refills\",\"shorten\":false}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "478721",
+    "item_type": "Number",
+    "layout": "{\"i\":478721,\"x\":13,\"y\":2,\"w\":7,\"h\":5,\"moved\":false}",
+    "options": "{\"query\":\"QRY-0044\",\"title\":\"Refill Rate\",\"column\":\"Refill Rate\",\"shorten\":false}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "960308",
+    "item_type": "Table",
+    "layout": "{\"i\":960308,\"x\":0,\"y\":7,\"w\":20,\"h\":25,\"moved\":false}",
+    "options": "{\"columns\":[\"SKU\",\"Type Of Customer\",\"Refills\",\"Customer\",\"Refill Rate\"],\"query\":\"QRY-0045\",\"index\":true,\"showTotal\":true,\"title\":\"Average # of refill SKUs per Customer Type\\u00a0\",\"filtersEnabled\":true}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "855073",
+    "item_type": "Table",
+    "layout": "{\"i\":855073,\"x\":0,\"y\":32,\"w\":20,\"h\":26,\"moved\":false}",
+    "options": "{\"columns\":[\"Franchise\",\"Type Of Customer\",\"Refills\",\"Customer\",\"Refill Rate\"],\"query\":\"QRY-0047\",\"index\":true,\"showTotal\":true,\"title\":\"Franchise Type of Customer WIse Refill Rate\",\"filtersEnabled\":true}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "263216",
+    "item_type": "Table",
+    "layout": "{\"i\":263216,\"x\":0,\"y\":58,\"w\":20,\"h\":23,\"moved\":false}",
+    "options": "{\"columns\":[\"Franchise\",\"Item Code Name\",\"Type Of Customer\",\"Refills\",\"Customer\",\"Refill Rate\"],\"query\":\"QRY-0046\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true,\"title\":\"Franchise SKU Type of Customer WIse Refill Rate\"}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "180712",
+    "item_type": "Filter",
+    "layout": "{\"i\":180712,\"x\":10,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"15858\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"56482\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"263216\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"478721\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"855073\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"940459\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"960308\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"}},\"column\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"type\":\"String\",\"table\":\"tabSales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"label\":\"SKU / Item\"}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "361936",
+    "item_type": "Filter",
+    "layout": "{\"i\":361936,\"x\":15,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"15858\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"56482\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"263216\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"478721\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"855073\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"960308\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"}},\"column\":{\"label\":\"Territory\",\"column\":\"territory\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"label\":\"Franchise Country\"}",
+    "parent": "DSH-0043",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-06-27 10:46:29.861143",
+  "name": "DSH-0043",
+  "public_key": null,
+  "title": "Refill Rate Metrics"
+ },
+ {
+  "_liked_by": "[\"doreen@jibuco.com\"]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "333075",
+    "item_type": "Table",
+    "layout": "{\"i\":333075,\"x\":0,\"y\":0,\"w\":20,\"h\":25,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Territory\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Date\",\"column_options\":{\"column_type\":\"Date\"}},{\"column\":\"Total Unique Franchises\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Active Unique Franchses\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"POS Usage (%)\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0076\",\"index\":true,\"filtersEnabled\":true,\"title\":\"Daily POS Usage SQL Excluding Null Referral Company\"}",
+    "parent": "DSH-0075",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "178354",
+    "item_type": "Table",
+    "layout": "{\"i\":178354,\"x\":0,\"y\":25,\"w\":20,\"h\":25,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Territory\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Month\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Total Unique Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Active Unique Franchises\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"POS Usage (%)\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0077\",\"title\":\"Monthly POS Usage Excluding Null Referral Company\",\"index\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0075",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-01 12:40:29.926311",
+  "name": "DSH-0075",
+  "public_key": null,
+  "title": "POS Usage"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 1,
+  "items": [
+   {
+    "item_id": "823582",
+    "item_type": "Filter",
+    "layout": "{\"i\":823582,\"x\":0,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"70123\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"77483\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"394419\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"661602\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"691187\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"718629\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"916811\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"}},\"column\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"label\":\"Franchise\"}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "689062",
+    "item_type": "Filter",
+    "layout": "{\"i\":689062,\"x\":15,\"y\":0,\"w\":5,\"h\":1,\"moved\":false}",
+    "options": "{\"links\":{\"70123\":{},\"77483\":{},\"394419\":{},\"661602\":{},\"691187\":{\"label\":\"Item Code\",\"column\":\"item_code\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code\"},\"718629\":{},\"916811\":{}},\"column\":{\"label\":\"Item Code\",\"column\":\"item_code\",\"type\":\"String\",\"table\":\"tabSales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code\"},\"label\":\"Item/SKU\"}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "141326",
+    "item_type": "Filter",
+    "layout": "{\"i\":141326,\"x\":10,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"70123\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"77483\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"394419\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"661602\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"691187\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"718629\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"},\"916811\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"}},\"column\":{\"label\":\"Type Of Customer\",\"column\":\"type_of_customer\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.type_of_customer\"}}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "394419",
+    "item_type": "Table",
+    "layout": "{\"i\":394419,\"x\":0,\"y\":9,\"w\":20,\"h\":17,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_2\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_5\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0069\",\"title\":\"Global Retention Rate Type Of Customer Wise \",\"index\":true,\"showTotal\":false,\"filtersEnabled\":true}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "77483",
+    "item_type": "Table",
+    "layout": "{\"i\":77483,\"x\":0,\"y\":3,\"w\":20,\"h\":6,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Name_exp_1\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_4\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0068\",\"title\":\"Global Retention Rate\"}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "359609",
+    "item_type": "Filter",
+    "layout": "{\"i\":359609,\"x\":5,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"70123\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"77483\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"394419\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"691187\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"718629\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"916811\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"}},\"column\":{\"label\":\"Territory\",\"column\":\"territory\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"label\":\"Franchise Country\"}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "916811",
+    "item_type": "Table",
+    "layout": "{\"i\":916811,\"x\":0,\"y\":26,\"w\":20,\"h\":27,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise Country\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Referral Company\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_3\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_4\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0064\",\"title\":\"Retention Rate Franchise Wise\",\"index\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "70123",
+    "item_type": "Table",
+    "layout": "{\"i\":70123,\"x\":0,\"y\":53,\"w\":20,\"h\":26,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise Country\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Referral Company\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought These Two Week & Last Two Week\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers Who Bought Last Two Week Only\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_4\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Name_exp_5\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0070\",\"title\":\"Retention Rate Franchise Wise Type Of Customer Wise\",\"index\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0066",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-01 10:12:22.619332",
+  "name": "DSH-0066",
+  "public_key": "9a7da0a4351209ead40197fb2ba1636de40464e1e12037f6ec9b01ea",
+  "title": "Retention Rate Dynamic Dashboard Weekly"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 1,
+  "items": [
+   {
+    "item_id": "920298",
+    "item_type": "Filter",
+    "layout": "{\"i\":920298,\"x\":0,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"396790\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"442554\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"}},\"column\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"label\":\"Franchise\",\"defaultValue\":{}}",
+    "parent": "DSH-0049",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "442554",
+    "item_type": "Table",
+    "layout": "{\"i\":442554,\"x\":0,\"y\":2,\"w\":20,\"h\":23,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"SKU\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Posting Date\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Transactions Distinct\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customers\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Refill Frequency\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0048\",\"title\":\"Refill Frequency Weekly\",\"index\":true,\"filtersEnabled\":true,\"showTotal\":true}",
+    "parent": "DSH-0049",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "773342",
+    "item_type": "Filter",
+    "layout": "{\"i\":773342,\"x\":5,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"442554\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"table\":\"tabSales Invoice\",\"type\":\"Date\",\"table_label\":\"Sales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"}},\"column\":{\"label\":\"Posting Date\",\"column\":\"posting_date\",\"type\":\"Date\",\"table\":\"tabSales Invoice\",\"data_source\":\"Site DB\",\"description\":\"Date - Sales Invoice\",\"value\":\"tabSales Invoice.posting_date\"},\"label\":\"Date\",\"defaultOperator\":{\"label\":\"within\",\"value\":\"timespan\"},\"defaultValue\":{\"value\":\"Current Week\",\"label\":\"Current Week\"}}",
+    "parent": "DSH-0049",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "10551",
+    "item_type": "Filter",
+    "layout": "{\"i\":10551,\"x\":10,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"442554\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"table\":\"tabSales Invoice Item\",\"type\":\"String\",\"table_label\":\"Sales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"}},\"column\":{\"label\":\"Item Code Name\",\"column\":\"item_code_name\",\"type\":\"String\",\"table\":\"tabSales Invoice Item\",\"data_source\":\"Site DB\",\"description\":\"String - Sales Invoice Item\",\"value\":\"tabSales Invoice Item.item_code_name\"},\"defaultValue\":{},\"label\":\"SKU / Item\"}",
+    "parent": "DSH-0049",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "596692",
+    "item_type": "Filter",
+    "layout": "{\"i\":596692,\"x\":15,\"y\":0,\"w\":5,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"442554\":{\"label\":\"Territory\",\"column\":\"territory\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"}},\"column\":{\"label\":\"Territory\",\"column\":\"territory\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"label\":\"Franchise Country\"}",
+    "parent": "DSH-0049",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-01 10:44:00.187803",
+  "name": "DSH-0049",
+  "public_key": "68324cd0372737604e4ec9ad2880415cdd2bd1c334247bd103e31986",
+  "title": "Refill Frequency Weekly"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "413608",
+    "item_type": "Table",
+    "layout": "{\"i\":413608,\"x\":0,\"y\":0,\"w\":20,\"h\":5,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Customer Who Bought This Month & Last Month\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customer Who Bought Last Month\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate (%)\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0029\",\"title\":\"Global Retention Rate \"}",
+    "parent": "DSH-0024",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "845826",
+    "item_type": "Table",
+    "layout": "{\"i\":845826,\"x\":0,\"y\":5,\"w\":20,\"h\":25,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customer Who Bought This Month & Last Month\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Customer Who Bought Last Month\",\"column_options\":{\"column_type\":\"Number\"}},{\"column\":\"Retention Rate (%)\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0032\",\"title\":\"Retention Rate Franchise Wise\\u00a0\",\"index\":true,\"showTotal\":false,\"filtersEnabled\":true}",
+    "parent": "DSH-0024",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "879065",
+    "item_type": "Table",
+    "layout": "{\"i\":879065,\"x\":0,\"y\":30,\"w\":20,\"h\":22,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Franchise\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Referral Company\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customer Who Bought This Month & Last Month\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Customer Who Bought Last Month\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Retention Rate (%)\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0022\",\"title\":\"Retention Rate Franchise Query\",\"index\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0024",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-06-27 10:09:45.439678",
+  "name": "DSH-0024",
+  "public_key": null,
+  "title": "Retention Rate Metrics"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 0,
+  "items": [
+   {
+    "item_id": "209530",
+    "item_type": "Filter",
+    "layout": "{\"i\":209530,\"x\":0,\"y\":0,\"w\":6,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"60704\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"119190\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"770097\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"974996\":{\"label\":\"Franchise Country\",\"column\":\"franchise_country\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.franchise_country\"}},\"column\":{\"label\":\"Referral Company\",\"column\":\"referral_company\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.referral_company\"},\"label\":\"Franchise\"}",
+    "parent": "DSH-0013",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "937738",
+    "item_type": "Filter",
+    "layout": "{\"i\":937738,\"x\":6,\"y\":0,\"w\":6,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"60704\":{\"label\":\"Franchise Country\",\"column\":\"franchise_country\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.franchise_country\"},\"119190\":{\"label\":\"Franchise Country\",\"column\":\"franchise_country\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.franchise_country\"},\"770097\":{\"label\":\"Franchise Country\",\"column\":\"franchise_country\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.franchise_country\"},\"974996\":{\"label\":\"Franchise Country\",\"column\":\"franchise_country\",\"table\":\"tabCustomer\",\"type\":\"String\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.franchise_country\"}},\"column\":{\"label\":\"Territory\",\"column\":\"territory\",\"type\":\"String\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"String - Customer\",\"value\":\"tabCustomer.territory\"},\"label\":\"Franchise Country\"}",
+    "parent": "DSH-0013",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "527330",
+    "item_type": "Filter",
+    "layout": "{\"i\":527330,\"x\":12,\"y\":0,\"w\":8,\"h\":2,\"moved\":false}",
+    "options": "{\"links\":{\"60704\":{\"label\":\"Creation Time\",\"column\":\"creation_time\",\"table\":\"tabCustomer\",\"type\":\"Datetime\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"Datetime - Customer\",\"value\":\"tabCustomer.creation_time\"},\"119190\":{\"label\":\"Creation Time\",\"column\":\"creation_time\",\"table\":\"tabCustomer\",\"type\":\"Datetime\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"Datetime - Customer\",\"value\":\"tabCustomer.creation_time\"},\"770097\":{\"label\":\"Creation Time\",\"column\":\"creation_time\",\"table\":\"tabCustomer\",\"type\":\"Datetime\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"Datetime - Customer\",\"value\":\"tabCustomer.creation_time\"},\"974996\":{\"label\":\"Creation Time\",\"column\":\"creation_time\",\"table\":\"tabCustomer\",\"type\":\"Datetime\",\"table_label\":\"Customer\",\"data_source\":\"Site DB\",\"description\":\"Datetime - Customer\",\"value\":\"tabCustomer.creation_time\"}},\"column\":{\"label\":\"Creation Time\",\"column\":\"creation_time\",\"type\":\"Datetime\",\"table\":\"tabCustomer\",\"data_source\":\"Site DB\",\"description\":\"Datetime - Customer\",\"value\":\"tabCustomer.creation_time\"}}",
+    "parent": "DSH-0013",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "60704",
+    "item_type": "Table",
+    "layout": "{\"i\":60704,\"x\":0,\"y\":2,\"w\":20,\"h\":24,\"moved\":false}",
+    "options": "{\"columns\":[\"Customer Name\",\"Average Purchase Time\",\"Lead Source\",\"Customer Type\",\"Creation Time\",\"Credit Status\",\"Customer Group Name\",\"Address Description\",\"Referral Company\",\"Default Price List\",\"Default Sales Partner\",\"Email Id\",\"First Purchase Date\",\"Franchise Country\",\"Gender\",\"Account Manager\",\"Gps Location\",\"Last Purchase Date\",\"Lead Name\",\"Loyalty Program\",\"Loyalty Program Tier\",\"Market Segment\",\"Mobile No\",\"Modified Time\",\"Next Projected Purchase Date\",\"Owner\",\"Pending Bottles\",\"Primary Address\",\"Default Commission Rate\",\"Disabled\",\"Outstanding Amount\",\"Pending Bottles Count\",\"Posa Discount\"],\"query\":\"QRY-0018\",\"title\":\"Customer Data\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0013",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-06-27 10:43:45.349943",
+  "name": "DSH-0013",
+  "public_key": null,
+  "title": "All Customer List"
+ },
+ {
+  "_liked_by": "[]",
+  "docstatus": 0,
+  "doctype": "Insights Dashboard",
+  "is_public": 1,
+  "items": [
+   {
+    "item_id": "705075",
+    "item_type": "Table",
+    "layout": "{\"i\":705075,\"x\":0,\"y\":2,\"w\":7,\"h\":17,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Type Of Customer\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Total Customers\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0004\",\"title\":\"Type of Customers\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0011",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "133785",
+    "item_type": "Table",
+    "layout": "{\"i\":133785,\"x\":7,\"y\":7,\"w\":6,\"h\":12,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Status\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Total Customers\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0002\",\"title\":\"Status of Customers\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0011",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "22272",
+    "item_type": "Number",
+    "layout": "{\"i\":22272,\"x\":7,\"y\":2,\"w\":6,\"h\":5,\"moved\":false}",
+    "options": "{\"query\":\"QRY-0012\",\"title\":\"Total Customers\",\"column\":\"Total Customers\",\"shorten\":false}",
+    "parent": "DSH-0011",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "489888",
+    "item_type": "Number",
+    "layout": "{\"i\":489888,\"x\":13,\"y\":2,\"w\":6,\"h\":5,\"moved\":false}",
+    "options": "{\"query\":\"QRY-0015\",\"title\":\"Customer Referral Rate \",\"column\":\"Referral Rate\",\"shorten\":false}",
+    "parent": "DSH-0011",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   },
+   {
+    "item_id": "557590",
+    "item_type": "Table",
+    "layout": "{\"i\":557590,\"x\":13,\"y\":7,\"w\":7,\"h\":12,\"moved\":false}",
+    "options": "{\"columns\":[{\"column\":\"Lead Source\",\"column_options\":{\"column_type\":\"Text\"}},{\"column\":\"Total Customers\",\"column_options\":{\"column_type\":\"Text\"}}],\"query\":\"QRY-0003\",\"title\":\"Lead Source\",\"index\":true,\"showTotal\":true,\"filtersEnabled\":true}",
+    "parent": "DSH-0011",
+    "parentfield": "items",
+    "parenttype": "Insights Dashboard"
+   }
+  ],
+  "modified": "2024-08-09 17:31:24.726420",
+  "name": "DSH-0011",
+  "public_key": "24015ea6ec8fdf9acfeced6b579abf48348dda2af1c40aec776a83d6",
+  "title": "Customer Dashboard"
  }
 ]
